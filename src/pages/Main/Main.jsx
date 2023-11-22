@@ -3,7 +3,6 @@ import styles from "./Main.module.css"
 import axios from 'axios'
 import UserCard from '../../components/User/User'
 import UserDetailedData from "../../data/UserData"
-import { toast } from 'react-toastify'
 import Confettii from '../../utils/Confetti/Confetti'
 import MatchedCard from '../../components/Matched Card/MatchedCard'
 import OptionContainer from '../../components/Option Container/OptionContainer'
@@ -43,7 +42,6 @@ setLoading(false)
 
 function handleUserLiked(user){
 if(user.isLiked.includes(userId)){
-  toast.success("Its a match")
   setMatchedUser(user)
 }
 }
