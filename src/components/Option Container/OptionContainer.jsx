@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./OptionContainer.module.css"
 
-const OptionContainer = (pageChoosen,setPageChoosen,setVisitedUserArray) => {
+const OptionContainer = ({pageChoosen,setPageChoosen,setVisitedUserArray}) => {
   return (
     <div className={styles.optionContainer}>
     <button onClick={()=>{setPageChoosen("main");setVisitedUserArray([])}} style={{background:pageChoosen==="main"?"#000":"",color:pageChoosen==="main"?"#fff":""}} className={styles.button}>Main</button>

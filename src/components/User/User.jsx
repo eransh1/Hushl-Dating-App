@@ -11,7 +11,6 @@ const User = ({user,setVisitedUserArray,visitedUserArray,handleUserLiked,handleU
 const[direction,setDirection]=useState("")
 const[degree,setDegree]=useState(0)
 const[option,setOption]=useState('')
-// console.log("degree",degree)
  function calculateAge(birthdate) {
     const birthdateObj = new Date(birthdate);
     const now = new Date();
@@ -34,7 +33,7 @@ const[option,setOption]=useState('')
   const handlers = useSwipeable({
     onSwipedLeft: () =>{ handleUserDisliked(user);setDegree(0);setOption(null);setVisitedUserArray((prev)=>{return[...prev,user.id]})},
     onSwipedRight: () => {handleUserLiked(user);setDegree(0);setOption(null);setVisitedUserArray((prev)=>{return[...prev,user.id]})},
-    onSwiping:(eventData)=>{console.log("eventData",eventData);setOption(eventData.dir.toLowerCase()==="left"?"nope":"like");setDirection(eventData.dir.toLowerCase());setDegree(eventData.dir.toLowerCase()==="left"?`-${(eventData.absX)/10}`:(eventData.absX)/10)},
+    onSwiping:(eventData)=>{setOption(eventData.dir.toLowerCase()==="left"?"nope":"like");setDirection(eventData.dir.toLowerCase());setDegree(eventData.dir.toLowerCase()==="left"?`-${(eventData.absX)/10}`:(eventData.absX)/10)},
     swipeDuration: 2500,
     preventScrollOnSwipe: true,
     trackMouse: true
@@ -53,7 +52,7 @@ setTimeout(()=>{
     clearInterval(timer)
     setVisitedUserArray((prev)=>{return[...prev,user.id]})
     }
-    console.log("x",x)
+
     card.style.transform = `translateX(-${x}px)`;
     },1)
 },500)
