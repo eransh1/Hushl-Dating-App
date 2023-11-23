@@ -19,9 +19,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:07.374Z",
         "updatedDate": "2021-06-21T21:02:07.374Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109cb",
@@ -43,9 +43,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:07.533Z",
         "updatedDate": "2021-06-21T21:02:07.533Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109cc",
@@ -67,9 +67,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:07.719Z",
         "updatedDate": "2021-06-21T21:02:07.719Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109cd",
@@ -91,9 +91,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:07.872Z",
         "updatedDate": "2021-06-21T21:02:07.872Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109ce",
@@ -115,9 +115,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:08.029Z",
         "updatedDate": "2021-06-21T21:02:08.029Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109cf",
@@ -139,9 +139,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:08.193Z",
         "updatedDate": "2021-06-21T21:02:08.193Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d0",
@@ -163,9 +163,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:08.346Z",
         "updatedDate": "2021-06-21T21:02:08.346Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d1",
@@ -187,9 +187,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:08.506Z",
         "updatedDate": "2021-06-21T21:02:08.506Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d2",
@@ -211,9 +211,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:08.707Z",
         "updatedDate": "2021-06-21T21:02:08.707Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d3",
@@ -235,9 +235,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:08.861Z",
         "updatedDate": "2021-06-21T21:02:08.861Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d4",
@@ -259,9 +259,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:09.050Z",
         "updatedDate": "2021-06-21T21:02:09.050Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d5",
@@ -283,9 +283,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:09.202Z",
         "updatedDate": "2021-06-21T21:02:09.202Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d6",
@@ -307,9 +307,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:09.357Z",
         "updatedDate": "2021-06-21T21:02:09.357Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d7",
@@ -331,9 +331,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:09.541Z",
         "updatedDate": "2021-06-21T21:02:09.541Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d8",
@@ -355,9 +355,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:09.697Z",
         "updatedDate": "2021-06-21T21:02:09.697Z",
         "isBookmarked": [],
-        "isLiked": ['eranshbansal'],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": ['eranshbansal'],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109d9",
@@ -379,9 +379,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:09.870Z",
         "updatedDate": "2021-06-21T21:02:09.870Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109da",
@@ -403,9 +403,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:10.075Z",
         "updatedDate": "2021-06-21T21:02:10.075Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109db",
@@ -427,9 +427,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:10.280Z",
         "updatedDate": "2021-06-21T21:02:10.280Z",
         "isBookmarked": [],
-        "isLiked": ['eranshbansal'],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": ['eranshbansal'],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109dc",
@@ -451,9 +451,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:10.491Z",
         "updatedDate": "2021-06-21T21:02:10.491Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     },
     {
         "id": "60d0fe4f5311236168a109dd",
@@ -475,9 +475,9 @@ const UserDetailedData=[
         "registerDate": "2021-06-21T21:02:10.647Z",
         "updatedDate": "2021-06-21T21:02:10.647Z",
         "isBookmarked": [],
-        "isLiked": [],
-        "isDIsliked": [],
-        "isSuperliked": []
+        "hasLiked": [],
+        "hasDisliked": [],
+        "hasSuperliked": []
     }
 ]
 

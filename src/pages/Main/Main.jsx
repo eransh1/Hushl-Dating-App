@@ -41,13 +41,28 @@ setLoading(false)
 }
 
 function handleUserLiked(user){
-if(user.isLiked.includes(userId)){
+if(user.hasLiked.includes(userId)){
   setMatchedUser(user)
+}
+else{
+  let tempArray=user.hasLiked
+tempArray.push(userId)
+let newList=usersData.map((item)=>{
+  if(item.id===user.id){return {...item,hasLiked:tempArray}}
+  else {return item}
+ })
+ setUsersData(newList)
 }
 }
 
 function handleUserDisliked(user){
-  
+  let tempArray=user.hasDisliked
+tempArray.push(userId)
+let newList=usersData.map((item)=>{
+  if(item.id===user.id){return {...item,hasDisliked:tempArray}}
+  else {return item}
+ })
+ setUsersData(newList)
 }
 
 function handleUserBookmarked(user){
@@ -59,7 +74,6 @@ function handleUserBookmarked(user){
  })
  setUsersData(newList)
 }
-
 
 
   return (

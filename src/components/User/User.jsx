@@ -34,7 +34,7 @@ const[option,setOption]=useState('')
     onSwipedLeft: () =>{ handleUserDisliked(user);setDegree(0);setOption(null);setVisitedUserArray((prev)=>{return[...prev,user.id]})},
     onSwipedRight: () => {handleUserLiked(user);setDegree(0);setOption(null);setVisitedUserArray((prev)=>{return[...prev,user.id]})},
     onSwiping:(eventData)=>{setOption(eventData.dir.toLowerCase()==="left"?"nope":"like");setDirection(eventData.dir.toLowerCase());setDegree(eventData.dir.toLowerCase()==="left"?`-${(eventData.absX)/10}`:(eventData.absX)/10)},
-    swipeDuration: 2500,
+    swipeDuration: 25000,
     preventScrollOnSwipe: true,
     trackMouse: true
   });
